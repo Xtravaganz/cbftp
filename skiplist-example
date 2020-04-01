@@ -1,0 +1,34 @@
+[ ]    * *                    [X]   [X]  Deny        Allround
+[ ]    *[*                    [X]   [X]  Deny        In spread job
+[ ]    *]*                    [X]   [X]  Deny        In spread job
+[ ]    *%*                    [X]   [X]  Deny        In spread job
+[ ]    *(*)*                  [X]   [X]  Deny        In spread job
+[ ]    sample                 [ ]   [X]  Allow       In spread job
+[ ]    proof                  [ ]   [X]  Allow       In spread job
+[ ]    subs                   [ ]   [X]  Allow       In spread job
+[ ]    covers                 [ ]   [X]  Allow       In spread job
+[ ]    dvd?                   [ ]   [X]  Allow       In spread job
+[ ]    disk?                  [ ]   [X]  Allow       In spread job
+[ ]    disc?                  [ ]   [X]  Allow       In spread job
+[ ]    *                      [ ]   [X]  Deny        In spread job
+[ ]    sample/*.mkv           [X]   [ ]  Unique      In spread job
+[ ]    sample/*.mp4           [X]   [ ]  Unique      In spread job
+[ ]    sample/*.vob           [X]   [ ]  Unique      In spread job
+[ ]    sample/*               [X]   [ ]  Deny        In spread job
+[ ]    proof/*.jpg            [X]   [ ]  Unique      In spread job
+[ ]    proof/*                [X]   [ ]  Deny        In spread job
+[ ]    subs/*.r??             [X]   [ ]  Similar     In spread job
+[ ]    subs/*.sfv             [X]   [ ]  Unique      In spread job
+[ ]    subs/*                 [X]   [ ]  Deny        In spread job
+[ ]    covers/*.jpg           [X]   [ ]  Allow       In spread job
+[ ]    covers/*               [X]   [ ]  Deny        In spread job
+[ ]    */*.nfo                [X]   [ ]  Deny        In spread job
+[ ]    *.sfv                  [X]   [ ]  Unique      In spread job
+[ ]    *.nfo                  [X]   [ ]  Unique      In spread job
+[ ]    *.r??                  [X]   [ ]  Similar     In spread job
+[ ]    *.s??                  [X]   [ ]  Similar     In spread job
+[ ]    *.t??                  [X]   [ ]  Similar     In spread job
+[ ]    *.u??                  [X]   [ ]  Similar     In spread job
+[ ]    *.v??                  [X]   [ ]  Similar     In spread job
+[ ]    *.w??                  [X]   [ ]  Similar     In spread job
+[ ]    *                      [X]   [ ]  Deny        In spread job
